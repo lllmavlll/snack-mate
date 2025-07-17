@@ -1,0 +1,56 @@
+{
+  "name": "snack-mate",
+  "version": "1.0.0",
+  "description": "A minimal, accessible React snackbar/toast notification system",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0",
+    "tailwindcss": "^3.3.0",
+    "framer-motion": "^10.16.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  },
+  "keywords": [
+    "react",
+    "snackbar",
+    "toast",
+    "notification",
+    "typescript",
+    "tailwind",
+    "framer-motion"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/snack-mate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/snack-mate/issues"
+  },
+  "homepage": "https://github.com/yourusername/snack-mate#readme"
+} 
